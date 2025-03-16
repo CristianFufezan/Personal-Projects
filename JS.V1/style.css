@@ -1,0 +1,83 @@
+body{
+    color: white;
+    font-family: 'Brush Script MT';
+    color: black;
+}
+nav{
+    background-color: darkblue;
+    padding: 15px;
+    border: 10px solid black;
+}
+nav ul{
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    gap: 500px;
+}
+nav ul li a{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+nav ul li a:hover{
+    color: darkcyan;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 10px solid black;
+}
+button{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+button a{
+    color: darkred;
+    font-family: 'Brush Script MT';
+    text-decoration: none;
+    font-size: 30px;
+}
+button a:hover{
+    color: darkcyan;
+    text-decoration: none;
+}
+
+div.gallery{
+    display: grid;
+    padding: 30px;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+div.gallery img{
+    display: block;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border: 10px solid black;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
